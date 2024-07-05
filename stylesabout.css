@@ -31,3 +31,12 @@ nav ul li a {
     color: #ecece2;
     text-decoration: none;
 }
+footer {
+    background: #333;
+    color: #d7da37;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

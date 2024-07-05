@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleshome.css">
 </head>
 <body>
     <header>
         <h1>Welcome to the SRCC CONFESSION PAGE</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!-- Serch Form-->
+         <form action="/search" method="get" class="search-form">
+            <input type="text" name="query" placeholder="search..." required>
+            <button type="submit">Search</button>
+         </form>
     </header>
     <main>
         <section id="home">
             <h2>Home</h2>
             <p>This is the home section.</p>
-        </section>
-        <section id="about">
-            <h2>About</h2>
-            <p>This is the about section.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>This is the contact section.</p>
         </section>
     </main>
     <footer>
